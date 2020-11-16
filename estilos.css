@@ -1,0 +1,229 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style:none; 
+	text-decoration:none;	
+}
+
+
+body {
+	background: url(./img/naviadadima.jpg);
+	background-attachment:fixed;
+	background-position:top center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	overflow-x: hidden;
+}
+
+header {
+    opacity:0.4;
+	filter:alpha(opacity=10); /* For IE8 and earlier */
+	width:100%;
+	height: 100px;
+	position:relative;
+	margin: 0 auto;
+	text-align: center;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius:5px;	
+}
+
+
+nav {
+	width:100%;
+	height: 60px;
+	position:relative;
+	margin: 0 auto;
+    text-align:center;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-border-radius:15px;	
+}
+
+ul li {
+    display: inline-block;
+    
+}
+.botones {
+    opacity:0.7;
+	filter:alpha(opacity=60); /* For IE8 and earlier */
+	float: left;
+    width: 160px;
+    height: 50px;
+	line-height: 40px;
+	text-align:center;
+	margin-left:15px;
+    margin-top:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-border-radius: 15px;	
+
+}
+
+.iconos{
+    
+
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+	-webkit-border-radius:5px;	
+	opacity: 50%;
+	-moz-opacity: 50%;
+	-o-opacity: 50%;
+	-webkit-opacity: 50%;
+
+}
+
+.iconos:hover{
+
+	opacity: 100%;
+	-moz-opacity: 100%;
+	-o-opacity: 100%;
+	-webkit-opacity: 100%;
+}
+
+
+section {
+	top: 1px;
+	width: 1000px;
+	height:800px;
+	position:relative;
+	margin: 0 auto;
+	border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+	-webkit-border-radius:5px;
+	
+	
+}
+
+#historia {
+	position:absolute;
+	width:320px;
+	height:420px;
+	background: url(./img/muñeco.jpg);
+	left:5px;
+	top:65px;
+	border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+	-webkit-border-radius:5px;
+	opacity: 50%;
+	-moz-opacity: 50%;
+	-o-opacity: 50%;
+	-webkit-opacity: 50%;
+}   
+#historia:hover{
+
+	opacity: 100%;
+	-moz-opacity: 60%;
+	-o-opacity: 60%;
+	-webkit-opacity: 100%;
+}
+
+#navidad1{
+	
+	text-align: center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: rgba(241, 13, 230, 0.938);
+	font-style: italic;
+	margin-top: 20px;
+	text-shadow: 5px 5px 5px rgb(200, 233, 12);
+	-moz-text-shadow: 5px 5px 5px  rgb(168, 223, 19);
+	-o--text-shadow: 5px 5px 5px  rgb(206, 226, 23);
+	-webkit--text-shadow: 5px 5px 5px rgb rgb(213, 235, 14);
+	
+}
+
+#origen {
+	position:absolute;
+	width:560px;
+	height:408px;
+	background: url(./img/feliznavidad.jpg);
+	right:-40px;
+	top:65px;	
+	border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+	-webkit-border-radius:5px;
+	opacity: 50%;
+	-moz-opacity: 50%;
+	-o-opacity: 50%;
+	-webkit-opacity: 50%;
+}
+
+#origen:hover{
+
+	opacity: 100%;
+	-moz-opacity: 100%;
+	-o-opacity: 100%;
+	-webkit-opacity: 100%;
+}
+
+#navidad2{
+	
+	text-align: center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: rgba(18, 19, 18, 0.938);
+	font-style: italic;
+	margin-top: 80px;
+	text-shadow: 5px 5px 5px rgb(223, 226, 29);
+	-moz-text-shadow: 5px 5px 5px  rgb(204, 218, 17);
+	-o--text-shadow: 5px 5px 5px  rgb(195, 214, 18);
+	-webkit--text-shadow: 5px 5px 5px rgb rgb(207, 228, 19);
+}
+
+#Personajes {
+	position:absolute;
+	width:600px;
+	height:270px;
+	background: url(./img/navidad_125.jpg);
+	left:255px;
+	bottom:5px;
+	border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+	-webkit-border-radius:5px;
+	opacity: 30%;
+	-moz-opacity: 30%;
+	-o-opacity: 50%;
+	-webkit-opacity: 50%;
+}
+
+#Personajes:hover{
+
+	opacity: 100%;
+	-moz-opacity: 100%;
+	-o-opacity: 100%;
+	-webkit-opacity: 100%;
+}
+
+#navidad3{
+	
+	text-align: absolute;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color:rgb(224, 14, 161);
+	font-style: italic;
+	margin-top: 60px;
+	text-shadow: 5px 5px 5px rgb(212, 235, 11);
+	-moz-text-shadow: 5px 5px 5px  rgba(197, 238, 17, 0.986);
+	-o--text-shadow: 5px 5px 5px  rgb(218, 233, 13);
+	-webkit--text-shadow: 5px 5px 5px rgb rgb(204, 238, 12);
+}
+
+footer{
+
+
+	margin-top: 10px;
+}
+
+
+
